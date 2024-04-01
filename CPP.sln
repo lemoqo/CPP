@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CPlusPlus11", "CPlusPlus11"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "transform", "transform\transform.vcxproj", "{C1A8E30B-2D0A-4C81-BF73-3CBBA1966FA9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liblua54", "liblua54\LibLua54.vcxproj", "{3F7A5318-75C3-49DB-BC78-C455FFD528E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,12 +25,21 @@ Global
 		{C1A8E30B-2D0A-4C81-BF73-3CBBA1966FA9}.Release|x64.Build.0 = Release|x64
 		{C1A8E30B-2D0A-4C81-BF73-3CBBA1966FA9}.Release|x86.ActiveCfg = Release|Win32
 		{C1A8E30B-2D0A-4C81-BF73-3CBBA1966FA9}.Release|x86.Build.0 = Release|Win32
+		{3F7A5318-75C3-49DB-BC78-C455FFD528E8}.Debug|x64.ActiveCfg = Debug|x64
+		{3F7A5318-75C3-49DB-BC78-C455FFD528E8}.Debug|x64.Build.0 = Debug|x64
+		{3F7A5318-75C3-49DB-BC78-C455FFD528E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{3F7A5318-75C3-49DB-BC78-C455FFD528E8}.Debug|x86.Build.0 = Debug|Win32
+		{3F7A5318-75C3-49DB-BC78-C455FFD528E8}.Release|x64.ActiveCfg = Release|x64
+		{3F7A5318-75C3-49DB-BC78-C455FFD528E8}.Release|x64.Build.0 = Release|x64
+		{3F7A5318-75C3-49DB-BC78-C455FFD528E8}.Release|x86.ActiveCfg = Release|Win32
+		{3F7A5318-75C3-49DB-BC78-C455FFD528E8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C1A8E30B-2D0A-4C81-BF73-3CBBA1966FA9} = {DFA37B75-8685-4253-A045-2C737388ADA3}
+		{3F7A5318-75C3-49DB-BC78-C455FFD528E8} = {DFA37B75-8685-4253-A045-2C737388ADA3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13CE3FC2-21B6-43BB-81C5-C0EC9737D0E3}
